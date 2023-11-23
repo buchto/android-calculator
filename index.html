@@ -9,37 +9,43 @@
 </head>
 <body>
   <div class="wrapper">
-    <div id="display">0</div>
+    <div class="display">
+      <div class="previousNumber">
+        <p></p>
+        <span class="mathSign"></span>
+      </div>
+      <p class="currentNumber"></p>
+    </div>
     <section class="buttons">
       <div class="button-row">
-        <button class="button" id="orange" onclick="" >C</button>
-        <button class="button" id="green" onclick="">&lpar; &rpar;</button>
-        <button class="button" id="green" onclick="">&radic;</button>
-        <button class="button" id="green" ">&divide;</button>
+        <button class="clear" id="orange">C</button>
+        <button class="operator" id="green">&lpar; &rpar;</button>
+        <button class="operator" id="green">&radic;</button>
+        <button class="operator" id="green">&divide;</button>
       </div>
       <div class="button-row">
-        <button class="button" onclick="numbers('7')">7</button>
-        <button class="button" onclick="numbers(8)">8</button>
-        <button class="button" onclick="numbers(9)">9</button>
-        <button class="button" id="green" >×</button>
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="operator" id="green">×</button>
       </div>
       <div class="button-row">
-        <button class="button" onclick="numbers(4)">4</button>
-        <button class="button" onclick="numbers(5)">5</button>
-        <button class="button" onclick="numbers(6)">6</button>
-        <button class="button" id="green">-</button>
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="operator" id="green">-</button>
       </div>
       <div class="button-row">
-        <button class="button" onclick="numbers(1)">1</button>
-        <button class="button" onclick="numbers(2)">2</button>
-        <button class="button" onclick="numbers(3)">3</button>
-        <button class="button" id="green">+</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="operator" id="green">+</button>
       </div>
       <div class="button-row">
-        <button class="button">+/-</button>
-        <button class="button" onclick="numbers(0)">0</button>
+        <button class="operator">x<sup>2</sup></button>
+        <button class="button">0</button>
         <button class="button">,</button>
-        <button class="button" id="equal">=</button>
+        <button class="equals">=</button>
       </div>
     </section>
   </div>  

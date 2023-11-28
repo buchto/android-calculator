@@ -11,7 +11,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom right, wheat, cyan);
+  background: linear-gradient(to bottom right, #000033, #00cccc, #000033);
   font-family: 'Samsung Sharp Sans', sans-serif;
 }
 
